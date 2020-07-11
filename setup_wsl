@@ -1,0 +1,77 @@
+setup wsl - window subsystem linux
+
+Install the Windows Subsystem for Linux
+open powershell as administrator and run the command >
+dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+
+To only install WSL 1, you should now restart your machine and move on 
+to Install your Linux distribution of choice, otherwise wait to restart 
+and move on to update to WSL 2. Read more about Comparing WSL 2 and WSL 1.
+-- store https://docs.microsoft.com/en-us/windows/wsl/install-win10#install-your-linux-distribution-of-choice
+
+
+Before installing WSL 2, you must enable the "Virtual Machine Platform" optional feature.
+Open PowerShell as Administrator and run: >
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+
+Run the following command in PowerShell to set WSL 2 as the default version when installing a new Linux distribution:
+PowerShell
+Copy
+wsl --set-default-version 2
+
+You might see this message after running that command: WSL 2 requires an update to its kernel component.
+ For information please visit https://aka.ms/wsl2kernel. Please follow the link (https://aka.ms/wsl2kernel) and install the MSI from that page on our documentation to install a Linux kernel on your machine for WSL 2 to use. Once you have the kernel installed, please run the command again 
+and it should complete successfully without showing the message.
+
+https://aka.ms/wsl2kernel. >
+Download the Linux kernel update package
+Please download the latest WSL2 Linux kernel update package for x64 machines
+
+Install the Linux kernel update package
+To install the Linux kernel update package:
+Run the update package downloaded in the previous step.
+You will be prompted for elevated permissions, select ‘yes’ to approve this installation.
+Once the installation is complete, you are ready to begin using WSL2!
+
+wsl --set-default-version 2
+Once you have the kernel installed, please run the command again and
+ it should complete successfully without showing the message.
+
+if not working in powershell, execute the wsl command from command prompt.
+Install your Linux distribution of choice
+Set your distribution version to WSL 1 or WSL 2
+You can check the WSL version assigned to each of the Linux distributions you have installed by opening the PowerShell command line and entering the command (only available in Windows Build 19041 or higher): wsl -l -v
+
+PowerShell
+
+Copy
+wsl --list --verbose
+To set a distribution to be backed by either version of WSL please run:
+
+PowerShell
+
+Copy
+wsl --set-version <distribution name> <versionNumber>
+Make sure to replace <distribution name> with the actual name of your distribution and <versionNumber> with the number '1' or '2'. You can change back to WSL 1 at anytime by running the same command as above but replacing the '2' with a '1'.
+
+Additionally, if you want to make WSL 2 your default architecture you can do so with this command:
+
+PowerShell
+
+Copy
+wsl --set-default-version 2
+This will set the version of any new distribution installed to WSL 2.
+
+getting started docker project in wsl
+https://github.com/docker/getting-started
+git clone, cd getting-started, docker build -t image_name ., docker images will be ready
+
+run the image
+docker run -d -p 80:80 docker/getting-started
+
+to use docker-compose, do thissudo  ln -s /mnt/c/Program\ Files/Docker/Docker/resources/bin/docker-credential-desktop.exe /usr/bin/docker-credential-desktop.exe
+
+docker-compose up should work.
+
+Install docker in ubuntu
+

@@ -1,1 +1,61 @@
-<mxfile host="app.diagrams.net" modified="2021-08-30T10:40:23.535Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15" version="15.0.3" etag="RGJarf1_e4TLijqh_9mz" type="github"><diagram id="qIo22hkgI1xbM3EErQGw">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-08-30T10:43:00.091Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15" etag="8fm7KnNT0GDmkI97MFdX" version="15.0.3" type="github">
+  <diagram id="qIo22hkgI1xbM3EErQGw" name="Page-1">
+    <mxGraphModel dx="1082" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="46WT6fV4Y1kPjI-aSmJu-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="46WT6fV4Y1kPjI-aSmJu-1" target="46WT6fV4Y1kPjI-aSmJu-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="46WT6fV4Y1kPjI-aSmJu-1" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/monitor/SAP_Azure_Monitor.svg;" vertex="1" parent="1">
+          <mxGeometry x="380" y="380" width="70" height="56.00000000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="46WT6fV4Y1kPjI-aSmJu-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="46WT6fV4Y1kPjI-aSmJu-2" target="46WT6fV4Y1kPjI-aSmJu-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="46WT6fV4Y1kPjI-aSmJu-2" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/iot/Event_Hubs.svg;" vertex="1" parent="1">
+          <mxGeometry x="150" y="110" width="60" height="53.73" as="geometry" />
+        </mxCell>
+        <mxCell id="46WT6fV4Y1kPjI-aSmJu-3" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/iot/Function_Apps.svg;" vertex="1" parent="1">
+          <mxGeometry x="620" y="340" width="68" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="46WT6fV4Y1kPjI-aSmJu-4" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/iot/IoT_Central_Applications.svg;" vertex="1" parent="1">
+          <mxGeometry x="260" y="510" width="60" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="46WT6fV4Y1kPjI-aSmJu-5" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/iot/Notification_Hubs.svg;" vertex="1" parent="1">
+          <mxGeometry x="120" y="310" width="67" height="56.00000000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="46WT6fV4Y1kPjI-aSmJu-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="46WT6fV4Y1kPjI-aSmJu-6" target="46WT6fV4Y1kPjI-aSmJu-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="46WT6fV4Y1kPjI-aSmJu-6" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/iot/Logic_Apps.svg;" vertex="1" parent="1">
+          <mxGeometry x="490" y="200" width="67" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="46WT6fV4Y1kPjI-aSmJu-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="46WT6fV4Y1kPjI-aSmJu-7" target="46WT6fV4Y1kPjI-aSmJu-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="46WT6fV4Y1kPjI-aSmJu-7" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/iot/Logic_Apps.svg;" vertex="1" parent="1">
+          <mxGeometry x="376.5" y="150" width="67" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="46WT6fV4Y1kPjI-aSmJu-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="46WT6fV4Y1kPjI-aSmJu-8" target="46WT6fV4Y1kPjI-aSmJu-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="46WT6fV4Y1kPjI-aSmJu-8" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/iot/Event_Hubs.svg;" vertex="1" parent="1">
+          <mxGeometry x="290" y="110" width="60" height="53.73" as="geometry" />
+        </mxCell>
+        <mxCell id="46WT6fV4Y1kPjI-aSmJu-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="46WT6fV4Y1kPjI-aSmJu-12" target="46WT6fV4Y1kPjI-aSmJu-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="46WT6fV4Y1kPjI-aSmJu-12" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;verticalAlign=top;labelBackgroundColor=white;" vertex="1" parent="1">
+          <mxGeometry x="610.5" y="196" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="46WT6fV4Y1kPjI-aSmJu-14" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;verticalAlign=top;labelBackgroundColor=white;" vertex="1" parent="1">
+          <mxGeometry x="830.5" y="196" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="46WT6fV4Y1kPjI-aSmJu-16" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;verticalAlign=top;labelBackgroundColor=white;" vertex="1" parent="1">
+          <mxGeometry x="505" y="378" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
